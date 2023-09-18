@@ -1,0 +1,2 @@
+# pis
+Papan Informasi Sekolah
