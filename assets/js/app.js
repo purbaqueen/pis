@@ -14,3 +14,4 @@ const displayTime = document.getElementById('displayTime')
 displayDate.innerHTML = hari + " " + bulan + " " + tahun
 displayTime.innerHTML = tanggal.getHours() + ":" + tanggal.getMinutes()
 
+setInterval(displayTime,1000)
