@@ -113,6 +113,9 @@ body {
   transform: scale(1.1);
 }
 
+.navbar-brand {
+  width: 230px;
+}
 .navbar-brand p {
   margin: 0 !important;
   padding: 0 !important;
