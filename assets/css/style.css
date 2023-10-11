@@ -1,9 +1,10 @@
 @font-face {
   font-family: "Fira Sans Regular";
-  src: url('../fonts/FiraSans-Regular.otf');
+  src: url("../fonts/FiraSans-Regular.otf");
 }
 
-html, body {
+html,
+body {
   font-family: "Fira Sans Regular";
 }
 
@@ -34,6 +35,7 @@ html, body {
   z-index: 10;
   height: 30px;
 }
+
 .news-title:after {
   position: absolute;
   content: "";
@@ -44,45 +46,50 @@ html, body {
   border-bottom: 15px solid transparent;
   top: 0px;
 }
+
 .news-title h5 {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 30px;
   color: #fff;
 }
+
 .news marquee {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 30px;
 }
+
 .news-content p {
   margin-right: 41px;
   display: inline;
   color: #000;
 }
+
 body {
   background-image: url("../img/bg.jpg");
   background-size: cover;
-  /* backdrop-filter: blur(5px); */
+  background-repeat: no-repeat;
 }
+
 .carousel-caption {
   background-color: rgba(160, 156, 156, 0.8);
 }
+
 .bg-blur {
-  background-color: rgba(160, 156, 156, 0.8);
-  /* backdrop-filter: blur(3px); */
+  background-color: rgba(160, 156, 156, 0.9);
 }
 .nav-img {
   height: 50px;
 }
+
 .left-content {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .ttd {
-  height: 115px;
-  line-height: 115px;
+  height: 10vh;
+  line-height: 10vh;
   text-align: center;
   color: #fff;
 }
@@ -99,18 +106,29 @@ body {
 }
 
 .nav-item {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-item:hover {
   transform: scale(1.1);
 }
 
-.navbar-brand p{
+.navbar-brand p {
   margin: 0 !important;
   padding: 0 !important;
 }
 
 .navbar-brand p#displayTime {
   font-size: 3vw;
+}
+
+.vh {
+  padding: 0;
+  height: 70vh;
+  margin-top: 4vh;
+  display: flex;
+}
+
+nav .navbar-expand-lg {
+  height: 20vh;
 }
