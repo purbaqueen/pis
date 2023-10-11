@@ -17,7 +17,7 @@ body {
   flex-wrap: wrap;
   width: 100vw;
   height: 30px;
-  position: fixed;
+  position: absolute;
   right: 0px;
   z-index: 20;
 }
@@ -128,7 +128,7 @@ body {
 .vh {
   padding: 0;
   height: 70vh;
-  margin-top: 4vh;
+  margin-top: 7vh;
   display: flex;
 }
 
