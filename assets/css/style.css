@@ -74,10 +74,16 @@ body {
 }
 
 .bg-blur {
-  background-color: rgba(27, 21, 197, 0.8);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 0, 255, 0.8) 10%,
+    rgba(4, 4, 253, 0.6) 50%,
+    rgba(9, 9, 254, 0.5) 100%
+  );
 }
 .nav-img {
-  height: 50px;
+  height: 7vh;
 }
 
 .left-content {
