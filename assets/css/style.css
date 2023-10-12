@@ -163,3 +163,9 @@ footer h6 {
 .text-xs-start {
   font-size: 2.5vh;
 }
+
+.shadow-grey {
+  box-shadow: 0px 5px 10px 1px rgba(166, 166, 166, 0.75);
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(166, 166, 166, 0.75);
+  -moz-box-shadow: 0px 5px 10px 1px rgba(166, 166, 166, 0.75);
+}
